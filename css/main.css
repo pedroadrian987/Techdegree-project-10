@@ -1,0 +1,144 @@
+
+.bOn {
+  background-color: #f9f6ef;
+  margin: 0 auto;
+  width: 90%;
+  z-index: 1;
+}
+
+  header {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+    h1 {
+      font-family: 'Kanit', sans-serif;
+      opacity: 0.5;
+    }
+
+  table{
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+  }
+    td {
+      border: 2px solid #d9d9d9;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    td:hover {
+      background-color:#c1bcb4;
+    }
+
+    .no-hover:hover {
+      background-color: #f9f6ef;
+    }
+
+
+      .image {
+        border-radius: 50%;
+        float:left;
+        width:30%;
+      }
+
+      .image-show {
+        border-radius: 50%;
+        clear: both;
+        margin: 10% 25% 5% 25%;
+        width:45%;
+      }
+
+
+
+      .name {
+        font-family: 'Kanit', sans-serif;
+        font-size: 0.8em;
+        margin-left: 15px;
+      }
+
+      .name-show {
+        clear:both;
+        display:block;
+        font-family: 'Kanit', sans-serif;
+        font-size: 1em;
+        text-align: center;
+      }
+
+      .email {
+        font-size: 0.5em;
+      }
+
+
+      .location {
+        font-size: 0.6em;
+      }
+
+      .email-show,
+      .location-show,
+      .cell-show,
+      .adrss-show,
+      .bDay-show {
+        clear: both;
+        display:block;
+        font-size: 0.9em;
+        opacity: 0.5;
+        text-align: center;
+      }
+
+
+      .name, .email, .location {
+        float: right;
+        margin-right: 20px;
+        margin-top: 5px;
+        width: 50%;
+      }
+
+      .cell,
+      .adrss,
+      .bDay,
+      .svg {
+        display:none;
+      }
+
+      .svgShow {
+        display:block;
+        float: right;
+        margin: 0;
+        opacity:0.5;
+        width: 10px;
+        z-index: 11;
+      }
+
+
+      hr {
+        margin: 10% 5%;
+      }
+
+  .modal {
+    background-color: #f9f6ef;
+    display: none;
+    height:60%;
+    left: 20%;
+    overflow: auto;
+    position: fixed;
+    top: 15%;
+    width: 23%;
+    z-index: 10;
+  }
+
+  .no-modal{
+    padding: 1px;
+  }
+
+  .modal-backg {
+    background-color: #000;
+    display: block;
+    height: 100%;
+    left:0;
+    opacity:0.4;
+    overflow: auto;
+    top:0;
+    width: 100%;
+    z-index:9;
+  }
